@@ -1,10 +1,11 @@
 {
   "name": "publicis-sapient",
   "version": "0.0.0",
+  "homepage": "https://nikitaraizada08.github.io/PublicisSapient/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm run build&&gh-pages -d build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
